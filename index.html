@@ -24,19 +24,19 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('/w3images/parallax1.jpg');
+  background-image: url("assets/mern.jpg");
   min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("/w3images/parallax2.jpg");
+  background-image: url("assets/python-logo-programming-language.png");
   min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("/w3images/parallax3.jpg");
+  background-image: url("assets/PerimeterTwo_06.jpg");
   min-height: 400px;
 }
 
@@ -88,13 +88,6 @@ body, html {
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">ABOUT ME</h3>
   <p class="w3-center"><em>MERN stack deveoper with knowledge in Python scripting</em></p>
-  <p>
-    A current software test engineer and former biomedical researcher who offers a track record of achievement in
-    implementing technical projects, gathering evidence/research, and driving effciencies. Demonstrates expertise in
-    leading product development in full compliance with user requirements, client specifications, and regulatory stan-
-    dards. Excels in cultivating collaboration among team members and colleagues in order to effectively communicate
-    project timelines and goals and ensure quality delivery of finished products.
-  </p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
       <p><b><i class="fa fa-user w3-margin-right"></i>ZHAO KEVIN MA</b></p><br>
@@ -103,9 +96,17 @@ body, html {
 
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h4>
+        <p>
+          A current software test engineer and former biomedical researcher who offers a track record of achievement in implementing technical projects, gathering evidence/research, and driving effciencies.
+        </p>
+        <p>
+          Demonstrates expertise in leading product development in full compliance with user requirements, client specifications, and regulatory standards.
+        </p>
+        <p>
+          Excels in cultivating collaboration among team members and colleagues in order to effectively communicate project timelines and goals and ensure quality delivery of finished products.
+        </p>
+      </h4>
     </div>
   </div>
   <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
@@ -124,72 +125,56 @@ body, html {
 </div>
 
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">14+</span><br>
-    Partners
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">20+</span><br>
+      Projects Done
+    </div>
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">2+</span><br>
+      Years of industry knowledge
+    </div>
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">4+</span><br>
+      Programming languages
+    </div>
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">15000+</span><br>
+      Lines of code
+    </div>
   </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">55+</span><br>
-    Projects Done
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">89+</span><br>
-    Happy Clients
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">150+</span><br>
-    Meetings
-  </div>
-</div>
 
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+    <span class="w3-xxlarge w3-text-black w3-wide">PORTFOLIO</span>
   </div>
 </div>
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
   <h3 class="w3-center">MY WORK</h3>
-  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+  <p class="w3-center"><em>Here are some of my latest work.<br> Click on the links to check out the Github Repos</em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+    <div class="w3-col m4">
+      <a href="https://intense-depths-81085.herokuapp.com/">
+        <img src="assets/VH.jpg" style="width:100%" class="w3-hover-opacity" alt="Virtual Hospital 1.0"> 
+      </a>
     </div>
 
-    <div class="w3-col m3">
-      <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+    <div class="w3-col m4">
+      <a href="https://zhaokevinma.github.io/project1/">
+        <img src="assets/All-in-one.JPG" style="width:100%" class="w3-hover-opacity" alt="All-in-one"> 
+      </a>
     </div>
 
-    <div class="w3-col m3">
-      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+    <div class="w3-col m4">
+      <a href="https://william-project2.herokuapp.com/">
+        <img src="assets/SIS.JPG" style="width:100%" class="w3-hover-opacity" alt="SIS"> 
+      </a>
     </div>
 
-    <div class="w3-col m3">
-      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
-    </div>
-  </div>
-
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-      <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
-    </div>
-    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
   </div>
 </div>
 
@@ -205,7 +190,7 @@ body, html {
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+     <span class="w3-xxlarge w3-text-black w3-wide">CONTACT</span>
   </div>
 </div>
 
@@ -216,13 +201,13 @@ body, html {
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
-      <img src="/w3images/map.jpg" class="w3-image w3-round" style="width:100%">
+      <img src="assets/fujifilmlogo.jpg" class="w3-image w3-round" style="width:100%">
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chicago, US<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Morrisville, NC, US<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +1 213 - 399 - 2565<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: zhaokevinma@outlook.com<br>
       </div>
       <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
       <form action="/action_page.php" target="_blank">
@@ -247,24 +232,15 @@ body, html {
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <i class="fab fa-facebook-square w3-hover-opacity"></i>
+    <i class="fab fa-instagram w3-hover-opacity"></i>
+    <i class="fab fa-linkedin w3-hover-opacity"></i>
+    <i class="fab fa-github w3-hover-opacity"></i>
   </div>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
  
 <script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
 
 // Change style of navbar on scroll
 window.onscroll = function() {myFunction()};
